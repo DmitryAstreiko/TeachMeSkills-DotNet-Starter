@@ -6,7 +6,13 @@ namespace TeachMeSkills.DotNet.Task1
     {
         static void Main(string[] args)
         {
-            // Your code here..
+            var pi = 3.141592653;
+
+            var e = 2.7182818284590452;
+
+            Console.WriteLine($"pi - {pi}");
+
+            Console.WriteLine($"e - {e}");
 
             Console.ReadLine();
         }
